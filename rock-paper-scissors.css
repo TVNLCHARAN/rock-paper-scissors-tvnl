@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#heading{
+    font-size: 40px;
+    margin: 30px 30px;
+}
+.game-buttons{
+    background-color: black;
+    border-radius: 70px;
+    margin: 20px;
+    padding: 20px;
+    border: 0.5px solid blue;
+    transition: 0.4s;
+}
+.game-buttons:hover{
+    box-shadow: 2px 2px 20px blue;
+}
+.game-buttons:active{
+    opacity: 0.5;
+    background-color: lightcyan;
+}
+#Reset-Score{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    margin-left: 35px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    transition: 0.4s;
+}
+#Reset-Score:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 20px rgba(0,0,255,20);
+}
+#outer-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    column-gap: 50px;
+}
+#stats,#move,#result{
+    padding: 20px;
+    color: white;
+    text-shadow: 3px 3px 10px rgba(0,0,255,0.8);
+}
+#result{
+    font-size: 28px;
+    font-weight: bold;
+    font-palette: dark;
+    text-shadow: 2px 2px 10px rgba(0,255,0,0.6);
+}
+.res-icons{
+    height: 40px;
+    width: 40px;
+    border: none;
+}
